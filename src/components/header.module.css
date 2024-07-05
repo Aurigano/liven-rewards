@@ -1,0 +1,10 @@
+.getButton {
+	background-color: var(--accent-color);
+	border-radius: 20px;
+	border-style: none;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+}
