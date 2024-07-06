@@ -1,3 +1,4 @@
+import React from "react";
 import loyalty from "../assets/loyalty.png";
 import PropTypes from "prop-types";
 
