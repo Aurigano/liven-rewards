@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 function Header() {
   return (
-    <div className="flex justify-between items-center w-full">
+    <div className="flex justify-between items-center w-full pb-6">
       <a href="https://liven.love/" rel="noopener noreferrer">
         <img src={logo} alt="Logo" width={"70px"} />
       </a>

@@ -5,7 +5,7 @@ import Rewards from "./views/Rewards";
 
 function App() {
   return (
-    <div className="flex flex-col gap-6 h-full">
+    <div className="flex flex-col h-full">
       <Header />
       <Rewards />
       <Footer />

@@ -49,7 +49,7 @@ function Rewards() {
   ];
   return (
     <>
-      <div className="flex flex-col gap-8 items-center ">
+      <div className="flex flex-col gap-6 items-center ">
         <HeroText />
         <GiftBanner
           checked={isGiftView}
@@ -63,7 +63,7 @@ function Rewards() {
       </div>
       <div className="relative md:hidden z-10">
         {!isGiftView && (giftValues || genericValues) && (
-          <div className="absolute block md:hidden left-1/2 transform -translate-x-1/2 top-2">
+          <div className="absolute block md:hidden left-1/2 transform -translate-x-1/2 -top-15px">
             <ExclusiveRibbon />
           </div>
         )}
