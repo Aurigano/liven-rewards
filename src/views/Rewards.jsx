@@ -27,18 +27,6 @@ function Rewards() {
       buyValue: 500,
       bonusValue: 125,
     },
-    {
-      buyValue: 750,
-      bonusValue: 200,
-    },
-    {
-      buyValue: 1000,
-      bonusValue: 250,
-    },
-    {
-      buyValue: 2000,
-      bonusValue: 300,
-    },
   ];
 
   const giftValues = [
